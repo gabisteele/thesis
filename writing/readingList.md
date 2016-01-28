@@ -59,3 +59,9 @@ ISBN:
 (TK7882.I6 W37 2015)
 
 ---------------
+
+Beyond the Reflection: The Role of the Mirror Paradigm in Clinical Practice
+
+LEON HOFFMAN
+
+http://ajp.psychiatryonline.org/doi/abs/10.1176/appi.ajp.2008.08071092
