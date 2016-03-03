@@ -1,67 +1,7 @@
-Jiggle (re)shaping American women
-Burns-Ardolino, Wendy A • 2007
+## Works Cited
 
-Publisher:
-Lexington Books
-ISBN:
-0739156764
+Bowlby, John. A Secure Base Parent-child Attachment and Healthy Human Development. New York: Basic, n.d. Print.
 
----------------
+Lorenz, K. (1935). Der Kumpan in der Umwelt des Vogels. Der Artgenosse als auslösendes Moment sozialer Verhaltensweisen. Journal für Ornithologie.
 
-Why it does not have to fit : modern fashion explained
-Fogg, Marnie • 2014
-
-Publisher:
-Prestel Pub
-ISBN:
-9783791349695
-
----------------
-
-Women's measurements for garment and pattern construction
-O'Brien, Ruth, b. 1892
-
-Publisher:
-U.S. Dept. of Agriculture
-(S21 .A46 no.454) -- Bobst Main Collection
-
----------------
-
-Technologized images, technologized bodies
-Jeanette Edwards • 2010
-
-Publisher:
-Berghahn Books
-ISBN:
-9781845456641
-
----------------
-
-Fabricated the new world of 3D printing
-Lipson, Hod • 2013
-
-Publisher:
-John Wiley & Sons
-ISBN:
-9781118410240
-
-(TS155.63 .L57 2013) -- Bobst Main Collection
-
----------------
-
-Interactive data visualization : foundations, techniques, and applications
-Ward, Matthew, 1955- author • 2015
-
-Publisher:
-CRC Press
-ISBN:
-9781482257373
-(TK7882.I6 W37 2015)
-
----------------
-
-Beyond the Reflection: The Role of the Mirror Paradigm in Clinical Practice
-
-LEON HOFFMAN
-
-http://ajp.psychiatryonline.org/doi/abs/10.1176/appi.ajp.2008.08071092
+U.S. Census Bureau, 2010 American Community Survey 1-year Estimates
