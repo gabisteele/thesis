@@ -1,0 +1,24 @@
+### Gabi Steele
+
+## Thesis Introduction:
+# Group Attachment Based Intervention Study Data
+
+John Bowlby’s theory of attachment explains the necessity of developing securely attached relationships during the early years of life. Bowlby contends that children are born biologically pre-programmed to form attachments with others, in order to maximize their likelihood of survival (Bowlby, 81). This work was deeply influenced by Korad Lorenz’s ethological research in 1935 focused on the process of ‘imprinting’ (Lorenz, 83). Bowlby’s evolutionary rooted theory serves as the foundation for the a current research initiative known as the Group Attachment Based Intervention study, focused on reducing and preventing child maltreatment in the United States and beyond. 
+
+The study originated by aiding families in the South Bronx, the poorest congressional district in the United States where the poverty rate is 36.9% and the severe poverty rate is 16.9% (U.S. Census Bureau, 2010). Tackling the oppressively large issue of child maltreatment in the some of the most severely troubled neighborhoods in the country is not a straightforward task, though it is one many groups have worked towards solving. This specific initiative, the Group Attachment Based Intervention study was developed jointly by The New School for Social Research’s Center for Attachment and the Albert Einstein College of Medicine’s Center for Babies, Toddlers and Families in 2006. 
+
+The program targets vulnerable families at high risk of child abuse by addressing the two most toxic causes of abuse (which they define as): poor parental impulse control and parental social isolation. Instead of removing children from the care of their biological parents, the work attempts to provide parents with the necessary tools to develop securely attached relationships to their children, and thus limit the number of adverse childhood experiences (ACEs) they will experience. These experiences are ranked on a numerical scale for both children and parents when entering the group attachment study. Though such experiences can never be erased, the goal of this work is to flat line these rankings and prevent further ACEs from occurring in their futures. By guiding these vulnerable parents, often caught in cyclical situations of abusive social environments since their own upbringing, the study is able to break the maltreatment pattern for the next generation. 
+
+Like most psychological data sets, the information being collected in this study is not being widely processed into tangible visualizations that could be examined by greater audiences. Despite the obvious importance of this work and the potential benefits it can have if the results are made widely accessible, there are limitations to the way these findings are presented beyond the immediate stakeholders within the program’s operation and the close-knit psychological attachment research community. By rendering the data collected here into humanist centered visual representations it is likely, if not certain, that newfound patterns will be observed. 
+
+This paper addresses the need for stronger data visualizations to be constructed surrounding the findings collected through the Group Attached Based Intervention study. Given the content of the data, a humanistic approach directed at reconstructing the numerical information that relays highly human content must be pursued.  
+
+# Work Cited
+
+Bowlby, John. A Secure Base Parent-child Attachment and Healthy Human Development. New York: Basic, n.d. Print.
+
+Lorenz, K. (1935). Der Kumpan in der Umwelt des Vogels. Der Artgenosse als auslösendes Moment sozialer Verhaltensweisen. Journal für Ornithologie.
+
+U.S. Census Bureau, 2010 American Community Survey 1-year Estimates
+
+
