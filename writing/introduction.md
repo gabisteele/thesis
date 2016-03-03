@@ -1,7 +1,7 @@
-### Gabi Steele
+# Gabi Steele
 
 ## Thesis Introduction:
-# Group Attachment Based Intervention Study Data
+### Group Attachment Based Intervention Study Data
 
 John Bowlby’s theory of attachment explains the necessity of developing securely attached relationships during the early years of life. Bowlby contends that children are born biologically pre-programmed to form attachments with others, in order to maximize their likelihood of survival (Bowlby, 81). This work was deeply influenced by Korad Lorenz’s ethological research in 1935 focused on the process of ‘imprinting’ (Lorenz, 83). Bowlby’s evolutionary rooted theory serves as the foundation for the a current research initiative known as the Group Attachment Based Intervention study, focused on reducing and preventing child maltreatment in the United States and beyond. 
 
@@ -13,12 +13,10 @@ Like most psychological data sets, the information being collected in this study
 
 This paper addresses the need for stronger data visualizations to be constructed surrounding the findings collected through the Group Attached Based Intervention study. Given the content of the data, a humanistic approach directed at reconstructing the numerical information that relays highly human content must be pursued.  
 
-# Work Cited
+### Work Cited
 
 Bowlby, John. A Secure Base Parent-child Attachment and Healthy Human Development. New York: Basic, n.d. Print.
 
 Lorenz, K. (1935). Der Kumpan in der Umwelt des Vogels. Der Artgenosse als auslösendes Moment sozialer Verhaltensweisen. Journal für Ornithologie.
 
 U.S. Census Bureau, 2010 American Community Survey 1-year Estimates
-
-
