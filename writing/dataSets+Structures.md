@@ -10,16 +10,16 @@ Data Sets:
 -	Interview with researchers and lab members
 
 #### Sample Data Structures:
-{ 
-  "caseName": [{
-      "variables":{
+{ <br />
+  "caseName": [{ <br />
+      "variables":{ <br />
             “T1MotherA:” 22
-            "name”:  “1st round of treatment Mother Age”
-            “T1_PrimaryCaregiver_Gender”: F
-            “name”: “1st round of treatment gender of the primary caregiver”
-            “T1_DateofAssessment”:
-            “name”: “1st round of treatment date of assessment”
-            “DropReason”:
-            “name”: “reason family dropped out of 1st round treatment” 
-            "T1_MotherEmployment":
-            "name": "Mother's employment during 1st round of treatment"}}]
+            "name”:  “1st round of treatment Mother Age” <br />
+            “T1_PrimaryCaregiver_Gender”: F <br />
+            “name”: “1st round of treatment gender of the primary caregiver” <br />
+            “T1_DateofAssessment”: <br />
+            “name”: “1st round of treatment date of assessment” <br />
+            “DropReason”: <br />
+            “name”: “reason family dropped out of 1st round treatment”<br />
+            "T1_MotherEmployment": <br />
+            "name": "Mother's employment during 1st round of treatment"}}] <br />
