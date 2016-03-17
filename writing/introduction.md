@@ -1,7 +1,4 @@
-## Gabi Steele
-
-## Thesis Introduction: 
-##Group Attachment Based Intervention Study Data
+## Introduction: 
 
 It has been estimated that 1 in 4 children experience some form of child maltreatment during their lifetimes ([Center for Disease Control and Prevention](http://www.cdc.gov/violenceprevention/childmaltreatment/)). John Bowlby’s theory of attachment explains the necessity of developing securely attached relationships during the early years of life. Bowlby contends that children are born biologically pre-programmed to form attachments with others, in order to maximize their likelihood of survival (Bowlby, 81). This work was deeply influenced by Korad Lorenz’s ethological research in 1935 focused on the process of ‘imprinting’ (Lorenz, 83). Bowlby’s evolutionary rooted theory serves as the foundation for the a current research initiative known as the Group Attachment Based Intervention (GABI) study, focused on reducing and preventing child maltreatment in the United States and beyond. 
 
