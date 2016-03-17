@@ -6,5 +6,5 @@
 
 ## [Work Cited](https://github.com/gabisteele/thesis/blob/master/writing/WorkCited.md)
 
-## [Data Sets & Structures]
+## [Data Sets & Structures](https://github.com/gabisteele/thesis/blob/master/writing/dataSets%2BStructures.md)
 
