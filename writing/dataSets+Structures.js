@@ -14,23 +14,23 @@ Data Sets:
 { "caseName": "NUJM"
 	"dataVariables": {
 
-		“T1MotherA": 22
-		“name”:  “1st round of treatment Mother Age”
+		“T1MotherA": 22,
+		“name”:  “1st round of treatment Mother Age”,
 
-		“T1_PrimaryCaregiver_Gender”: F
-		“name”: “1st round of treatment gender of the primary caregiver”
+		“T1_PrimaryCaregiver_Gender”: F,
+		“name”: “1st round of treatment gender of the primary caregiver”,
 
-		“T1_DateofAssessment”: 102215
-		“name”: “1st round of treatment date of assessment”
+		“T1_DateofAssessment”: 102215,
+		“name”: “1st round of treatment date of assessment”,
 
-		“DropReason”: 3
-		“name”: “reason family dropped out of 1st round treatment” 
+		“DropReason”: 3,
+		“name”: “reason family dropped out of 1st round treatment”, 
 
-		"T1_MotherEmployment": 5
-		"name": "Mother's employment during 1st round of treatment" 
+		"T1_MotherEmployment": 5,
+		"name": "Mother's employment during 1st round of treatment", 
 		
-		"MoACErank": 3
-		"name": "number of adverse childhood experience of the mother"
+		"MoACErank": 3,
+		"name": "number of adverse childhood experience of the mother",
 
 
 	}
