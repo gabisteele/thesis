@@ -4,6 +4,8 @@
 
 ## [Introduction](https://github.com/gabisteele/thesis/blob/master/writing/introduction.md)
 
+## [Story Map](https://github.com/gabisteele/thesis/blob/master/writing/storyMap.md)
+
 ## [Work Cited](https://github.com/gabisteele/thesis/blob/master/writing/WorkCited.md)
 
 ## [Data Sets & Structures](https://github.com/gabisteele/thesis/blob/master/writing/dataSets%2BStructures.md)
