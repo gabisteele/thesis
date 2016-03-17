@@ -1,10 +1,10 @@
-## [Outline]
+## [Outline](https://github.com/gabisteele/thesis/blob/master/writing/outline.md)
 
-## [Abstract]
+## [Abstract](https://github.com/gabisteele/thesis/blob/master/writing/abstractTech%2BTraumaConf.md)
 
-## [Introduction]
+## [Introduction](https://github.com/gabisteele/thesis/blob/master/writing/introduction.md)
 
-## [Works Cited]
+## [Work Cited](https://github.com/gabisteele/thesis/blob/master/writing/WorkCited.md)
 
 ## [Data Sets & Structures]
 
