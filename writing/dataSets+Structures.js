@@ -33,7 +33,7 @@ Data Sets:
 		"name": "number of adverse childhood experience of the mother",
 
 
-	}
+	}}
 	};
 
 		
