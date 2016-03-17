@@ -1,14 +1,14 @@
 The Prevention of Child Maltreatment in The Bronx
 
 1.	Introduction – Introducing GABI & goals for the visualization of its data <br />
-- Bowlby’s theory of Attachment 
-- The origins and relevance the Group Attachment Based Intervention
--	3 tiers of stakeholders 
--	Goals of the project and humanistic methods of execution
+  - Bowlby’s theory of Attachment 
+  - The origins and relevance the Group Attachment Based Intervention
+  -	3 tiers of stakeholders 
+  -	Goals of the project and humanistic methods of execution
 
 2.	Goals of the Group Attachment Based Intervention – Flat lining ACEs – Child Maltreatment History
--	Tackling child maltreatment is hard, what are the realistic goals GABI is attempting to achieve? How?
--	They can’t solve or erase past trauma but they can help flat line it and limit reoccurrences as well as assist adults in becoming more “resolved” about past suffering and trauma. 
+  -	Tackling child maltreatment is hard, what are the realistic goals GABI is attempting to achieve? How?
+  -	They can’t solve or erase past trauma but they can help flat line it and limit reoccurrences as well as assist adults in becoming more “resolved” about past suffering and trauma. 
 
 3.	Why should we be visualizing this information? (macro – 3 tiers of stakeholders)
 -	Lack of design involved in the documentation and sharing of psychological studies at data, despite need and interest – experts and researcher stakeholders
