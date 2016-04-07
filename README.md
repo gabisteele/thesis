@@ -1,23 +1,23 @@
 
 #[Work](https://github.com/gabisteele/thesis/blob/master/work)
 
-## [High Fidelity Sketches](https://github.com/gabisteele/thesis/tree/master/work/high%20fidelity%20sketches)
+### [High Fidelity Sketches](https://github.com/gabisteele/thesis/tree/master/work/high%20fidelity%20sketches)
 
-## [CIB Steam Graph](https://github.com/gabisteele/thesis/tree/master/work/CIBsteamgraph)
+### [CIB Steam Graph](https://github.com/gabisteele/thesis/tree/master/work/CIBsteamgraph)
+
+###[Research](### [Treatment](https://docs.google.com/document/d/15Augi7wcEqDfikrevVRiNnDyen9OsmEaMzd2oziuM1Q/edit)
 
 #[Writing](https://github.com/gabisteele/thesis/blob/master/writing)
 
-## [*All Written Treatment](https://docs.google.com/document/d/15Augi7wcEqDfikrevVRiNnDyen9OsmEaMzd2oziuM1Q/edit)
+### [Treatment](https://docs.google.com/document/d/15Augi7wcEqDfikrevVRiNnDyen9OsmEaMzd2oziuM1Q/edit)
 
-### [Outline](https://github.com/gabisteele/thesis/blob/master/writing/outline.md)
+- ### [Outline](https://github.com/gabisteele/thesis/blob/master/writing/outline.md)
 
-### [Abstract](https://github.com/gabisteele/thesis/blob/master/writing/abstractTech%2BTraumaConf.md)
+- ### [Abstract](https://github.com/gabisteele/thesis/blob/master/writing/abstractTech%2BTraumaConf.md)
 
-### [Introduction](https://github.com/gabisteele/thesis/blob/master/writing/introduction.md)
+- ### [Story Map](https://github.com/gabisteele/thesis/blob/master/writing/storyMap.md)
 
-### [Story Map](https://github.com/gabisteele/thesis/blob/master/writing/storyMap.md)
-
-### [Stakeholders Diagram](https://github.com/gabisteele/thesis/blob/master/writing/StakeholdersBreakdownDiagram.pdf)
+- ### [Stakeholders Diagram](https://github.com/gabisteele/thesis/blob/master/writing/StakeholdersBreakdownDiagram.pdf)
 
 ### [Work Cited](https://github.com/gabisteele/thesis/blob/master/writing/WorkCited.md)
 
