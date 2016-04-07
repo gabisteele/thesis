@@ -5,7 +5,7 @@
 
 - ### [CIB Steam Graph](https://github.com/gabisteele/thesis/tree/master/work/CIBsteamgraph)
 
-- ###[Design Research](https://github.com/gabisteele/thesis/tree/master/work/Design%20Research)
+- ###[Design Research](http://www.spotify-valentines.com/)
 
 #[Writing](https://github.com/gabisteele/thesis/blob/master/writing)
 
