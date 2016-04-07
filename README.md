@@ -1,4 +1,8 @@
 
+#[Work](https://github.com/gabisteele/thesis/blob/master/work)
+
+## [CIB Steam Graph](https://github.com/gabisteele/thesis/tree/master/work/CIBsteamgraph)
+
 #[Writing](https://github.com/gabisteele/thesis/blob/master/writing)
 
 ## [Outline](https://github.com/gabisteele/thesis/blob/master/writing/outline.md)
