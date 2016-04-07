@@ -5,7 +5,7 @@
 
 - ### [CIB Steam Graph](https://github.com/gabisteele/thesis/tree/master/work/CIBsteamgraph)
 
-- ###[Design Research](https://github.com/gabisteele/thesis/tree/master/work/DesignResearch)
+- ###[Design Research](https://github.com/gabisteele/thesis/tree/master/work/Design%20Research)
 
 #[Writing](https://github.com/gabisteele/thesis/blob/master/writing)
 
