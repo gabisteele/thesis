@@ -17,7 +17,7 @@
 
 ## [Stakeholders Diagram](https://github.com/gabisteele/thesis/blob/master/writing/StakeholdersBreakdownDiagram.pdf)
 
-## [Written Treatment](https://docs.google.com/document/d/15Augi7wcEqDfikrevVRiNnDyen9OsmEaMzd2oziuM1Q/edit)
+## [*All Written Treatment](https://docs.google.com/document/d/15Augi7wcEqDfikrevVRiNnDyen9OsmEaMzd2oziuM1Q/edit)
 
 ## [Work Cited](https://github.com/gabisteele/thesis/blob/master/writing/WorkCited.md)
 
