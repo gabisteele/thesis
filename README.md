@@ -5,7 +5,7 @@
 
 ### [CIB Steam Graph](https://github.com/gabisteele/thesis/tree/master/work/CIBsteamgraph)
 
-###[Research](http://www.awwwards.com/sites/love-notes)
+###[Research](http://www.spotify-valentines.com/)
 
 #[Writing](https://github.com/gabisteele/thesis/blob/master/writing)
 
