@@ -1,11 +1,11 @@
 
 #[Work](https://github.com/gabisteele/thesis/blob/master/work)
 
-### [High Fidelity Sketches](https://github.com/gabisteele/thesis/tree/master/work/high%20fidelity%20sketches)
+- ### [High Fidelity Sketches](https://github.com/gabisteele/thesis/tree/master/work/high%20fidelity%20sketches)
 
-### [CIB Steam Graph](https://github.com/gabisteele/thesis/tree/master/work/CIBsteamgraph)
+- ### [CIB Steam Graph](https://github.com/gabisteele/thesis/tree/master/work/CIBsteamgraph)
 
-###[Research](http://www.spotify-valentines.com/)
+- ###[Design Research](https://github.com/gabisteele/thesis/tree/master/work/DesignResearch)
 
 #[Writing](https://github.com/gabisteele/thesis/blob/master/writing)
 
