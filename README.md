@@ -3,6 +3,8 @@
 
 ## [CIB Steam Graph](https://github.com/gabisteele/thesis/tree/master/work/CIBsteamgraph)
 
+## [High Fidelity Sketches](https://github.com/gabisteele/thesis/tree/master/work/high%20fidelity%20sketches)
+
 #[Writing](https://github.com/gabisteele/thesis/blob/master/writing)
 
 ## [Outline](https://github.com/gabisteele/thesis/blob/master/writing/outline.md)
