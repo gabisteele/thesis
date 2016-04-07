@@ -5,11 +5,11 @@
 
 ### [CIB Steam Graph](https://github.com/gabisteele/thesis/tree/master/work/CIBsteamgraph)
 
-###[Research](### [Treatment](https://docs.google.com/document/d/15Augi7wcEqDfikrevVRiNnDyen9OsmEaMzd2oziuM1Q/edit)
+###[Research](http://www.awwwards.com/sites/love-notes)
 
 #[Writing](https://github.com/gabisteele/thesis/blob/master/writing)
 
-### [Treatment](https://docs.google.com/document/d/15Augi7wcEqDfikrevVRiNnDyen9OsmEaMzd2oziuM1Q/edit)
+- ### [Treatment](https://docs.google.com/document/d/15Augi7wcEqDfikrevVRiNnDyen9OsmEaMzd2oziuM1Q/edit)
 
 - ### [Outline](https://github.com/gabisteele/thesis/blob/master/writing/outline.md)
 
@@ -19,9 +19,9 @@
 
 - ### [Stakeholders Diagram](https://github.com/gabisteele/thesis/blob/master/writing/StakeholdersBreakdownDiagram.pdf)
 
-### [Work Cited](https://github.com/gabisteele/thesis/blob/master/writing/WorkCited.md)
+- ### [Work Cited](https://github.com/gabisteele/thesis/blob/master/writing/WorkCited.md)
 
-### [Data Sets & Structures](https://github.com/gabisteele/thesis/blob/master/writing/dataSets%2BStructures.md)
+- ### [Data Sets & Structures](https://github.com/gabisteele/thesis/blob/master/writing/dataSets%2BStructures.md)
 
 
 
