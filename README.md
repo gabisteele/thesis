@@ -9,7 +9,7 @@
 
 #[Writing](https://github.com/gabisteele/thesis/blob/master/writing)
 
-- ### [Treatment](https://docs.google.com/document/d/15Augi7wcEqDfikrevVRiNnDyen9OsmEaMzd2oziuM1Q/edit)
+- ### [Treatment](https://docs.google.com/a/newschool.edu/document/d/15Augi7wcEqDfikrevVRiNnDyen9OsmEaMzd2oziuM1Q/edit?usp=sharing)
 
 - ### [Outline](https://github.com/gabisteele/thesis/blob/master/writing/outline.md)
 
