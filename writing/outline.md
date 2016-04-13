@@ -7,8 +7,9 @@ The Prevention of Child Maltreatment in The Bronx
     -	Goals of the project and humanistic methods of execution
 
 1.1	Goals of the Group Attachment Based Intervention – Flat lining ACEs – Child Maltreatment History
-    -	Tackling child maltreatment is hard, what are the realistic goals GABI is attempting to achieve? How?
-    -	They can’t solve or erase past trauma but they can help flat line it and limit reoccurrences as well as assist adults in becoming more “resolved” about past suffering and trauma. 
+    
+        -	Tackling child maltreatment is hard, what are the realistic goals GABI is attempting to achieve? How?
+        - They can’t solve or erase past trauma but they can help flat line it and limit reoccurrences as well as assist adults in becoming more “resolved” about past suffering and trauma. 
 
 2.	Visualizing the Data (why? who? how?)
     -	Lack of design involved in the documentation and sharing of psychological studies at data, despite need and interest – experts and researcher stakeholders
@@ -22,14 +23,14 @@ The Prevention of Child Maltreatment in The Bronx
     -	Would be extremely helpful to have a tangible visualization that portrayed the entire scope of the project to potential investors/grant purposes etc
 
 2.1	Significance of human centered design when working with human subject data
-    -	When portraying data directly representing human subjects, there is a more imminent need for a humanistic approach to be considered in addition to rendering a human centered design that makes the information especially accessible to those studying it
-    -	Meaning, it is important to portray the qualitative and human aspects of the work in a way that other humans can engage with it on a relatable level not only basic and comprehensible level (as the human centered design approach focuses on)
-    -	Basically identifying the significance of humanistic approach and difference between that and creating a human centered design…
+    – When portraying data directly representing human subjects, there is a more imminent need for a humanistic approach to be considered in addition to rendering a human centered design that makes the information especially accessible to those studying it
+    – Meaning, it is important to portray the qualitative and human aspects of the work in a way that other humans can engage with it on a relatable level not only basic and comprehensible level (as the human centered design approach focuses on)
+    – Basically identifying the significance of humanistic approach and difference between that and creating a human centered design…
 
 2.2	Effectiveness of online learning platforms…
-    -	Online learning platforms are notoriously inexpensive and notoriously ineffective
-    -	Examining research of online learning platforms and their failures/successes
-    -	What makes for an effective online learning platform? → human centered design? 
+        -	Online learning platforms are notoriously inexpensive and notoriously ineffective
+        -	Examining research of online learning platforms and their failures/successes
+        -	What makes for an effective online learning platform? → human centered design? 
 
 2.3	Action Level Visualization related to the families themselves
     -	The project hopes not to tokenize these individuals and therefore plans to create a platform that they can also engage with
