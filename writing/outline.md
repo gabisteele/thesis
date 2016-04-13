@@ -1,6 +1,6 @@
 The Prevention of Child Maltreatment in The Bronx
 
-1.	Introduction – Introducing GABI & goals for the visualization of its data
+1. Introduction – Introducing GABI & goals for the visualization of its data
   - Bowlby’s theory of Attachment 
   - The origins and relevance the Group Attachment Based Intervention
   -	3 tiers of stakeholders 
