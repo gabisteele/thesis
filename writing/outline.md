@@ -10,7 +10,7 @@ The Prevention of Child Maltreatment in The Bronx
   -	Tackling child maltreatment is hard, what are the realistic goals GABI is attempting to achieve? How?
   -	They can’t solve or erase past trauma but they can help flat line it and limit reoccurrences as well as assist adults in becoming more “resolved” about past suffering and trauma. 
 
-2.0	Visualizing the Data (why? who? how?)
+2.	Visualizing the Data (why? who? how?)
   -	Lack of design involved in the documentation and sharing of psychological studies at data, despite need and interest – experts and researcher stakeholders
   -	Hugely important study tackling a serious global issue that directly effects our communities and society – parents and children stakeholders
   -	Making this data accessible opens up unique and highly scalable opportunities to greater social working community and beyond that can adopt methods and studies more easily if made visually and readily available – social worker stakeholders
