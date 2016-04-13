@@ -7,9 +7,8 @@ The Prevention of Child Maltreatment in The Bronx
     -	Goals of the project and humanistic methods of execution
 
 1.1	Goals of the Group Attachment Based Intervention – Flat lining ACEs – Child Maltreatment History
-    
-        -	Tackling child maltreatment is hard, what are the realistic goals GABI is attempting to achieve? How?
-        - They can’t solve or erase past trauma but they can help flat line it and limit reoccurrences as well as assist adults in becoming more “resolved” about past suffering and trauma. 
+    - Tackling child maltreatment is hard, what are the realistic goals GABI is attempting to achieve? How?
+    - They can’t solve or erase past trauma but they can help flat line it and limit reoccurrences as well as assist adults in becoming more “resolved” about past suffering and trauma. 
 
 2.	Visualizing the Data (why? who? how?)
     -	Lack of design involved in the documentation and sharing of psychological studies at data, despite need and interest – experts and researcher stakeholders
@@ -39,7 +38,8 @@ The Prevention of Child Maltreatment in The Bronx
 2.4	The benefits of all 3 visualizations 
     -	primary component is a holistic representation of all the data (expert level), 
     -	secondary representation yet likely most important is restructuring/redesigning training website using video content in a human centered design (intermediate level) 
-    -	third artistic and abstract platform that relates to families is a unique method of using data and visuals to create some kind of simple treatment level for the families, something they could personally engage with that proved their progress, improvements and accomplishments without belittlement or a condescending tone
+    - third artistic and abstract platform that relates to families is a unique method of using data and visuals to create some kind of simple treatment level for the families, something they could personally engage with that proved their progress, improvements and accomplishments without belittlement or a condescending tone
+    
 
 3.0 Visualization project
 
