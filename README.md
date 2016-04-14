@@ -6,6 +6,7 @@
 - [CIB Steam Graph](http://gabisteele.github.io/CIBsteamgraph/)
 - [Design Research](http://www.spotify-valentines.com/)
 - [Data Sets & Structures](https://github.com/gabisteele/thesis/tree/master/work/data%20structures)
+	- [Mean Scores Table](https://docs.google.com/a/newschool.edu/spreadsheets/d/1M4KQqMIOX0F0y2aWwhNbe1hZbf3TFDaittOWi1Jd8Jo/edit?usp=sharing)
 
 #[Writing](https://github.com/gabisteele/thesis/blob/master/writing)
 
