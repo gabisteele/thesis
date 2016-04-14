@@ -1,6 +1,7 @@
 
 #[Work](https://github.com/gabisteele/thesis/blob/master/work)
 
+- [Project Plan](https://docs.google.com/a/newschool.edu/document/d/1vwXTOknqnHnOrAzWCWo0fyEWGNNEXNt1NDW1zi7EsKA/edit?usp=sharing)
 - [High Fidelity Sketches](https://github.com/gabisteele/thesis/tree/master/work/high%20fidelity%20sketches)
 - [CIB Steam Graph](http://gabisteele.github.io/CIBsteamgraph/)
 - [Design Research](http://www.spotify-valentines.com/)
