@@ -4,7 +4,7 @@
 - ### [High Fidelity Sketches](https://github.com/gabisteele/thesis/tree/master/work/high%20fidelity%20sketches)
 - ### [CIB Steam Graph](http://gabisteele.github.io/CIBsteamgraph/)
 - ###[Design Research](http://www.spotify-valentines.com/)
-- ### [Data Sets & Structures](https://github.com/gabisteele/thesis/blob/master/writing/dataSets%2BStructures.md)
+- ### [Data Sets & Structures](https://github.com/gabisteele/thesis/tree/master/work/data%20structures)
 
 #[Writing](https://github.com/gabisteele/thesis/blob/master/writing)
 
