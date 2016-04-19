@@ -1,0 +1,3 @@
+- [MMC Epilogue Presentation](http://slides.com/gabriellasteele/my-mother-was-a-computer/live#/)
+- [MMC Skimmed PDF](https://github.com/gabisteele/thesis/blob/master/Research/MMC-Epilogue-Presentation.pdf)
+- [Design Research](http://www.spotify-valentines.com/)
