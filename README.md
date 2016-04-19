@@ -17,6 +17,7 @@
 - [Stakeholders Diagram](https://github.com/gabisteele/thesis/blob/master/writing/StakeholdersBreakdownDiagram.pdf)
 - [Work Cited](https://github.com/gabisteele/thesis/blob/master/writing/WorkCited.md)
 
-
-
+#Research
+- [MMC Epilogue Presentation](http://slides.com/gabriellasteele/my-mother-was-a-computer/live#/)
+- [MMC Skimmed PDF]
 
