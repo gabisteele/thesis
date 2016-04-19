@@ -4,7 +4,6 @@
 - [Project Plan](https://docs.google.com/a/newschool.edu/document/d/1vwXTOknqnHnOrAzWCWo0fyEWGNNEXNt1NDW1zi7EsKA/edit?usp=sharing)
 - [High Fidelity Sketches](https://github.com/gabisteele/thesis/tree/master/work/high%20fidelity%20sketches)
 - [CIB Steam Graph](http://gabisteele.github.io/CIBsteamgraph/)
-- [Design Research](http://www.spotify-valentines.com/)
 - [Data Sets & Structures](https://github.com/gabisteele/thesis/tree/master/work/data%20structures)
 	- [Mean Scores Table](https://docs.google.com/a/newschool.edu/spreadsheets/d/1M4KQqMIOX0F0y2aWwhNbe1hZbf3TFDaittOWi1Jd8Jo/edit?usp=sharing)
 
@@ -17,7 +16,8 @@
 - [Stakeholders Diagram](https://github.com/gabisteele/thesis/blob/master/writing/StakeholdersBreakdownDiagram.pdf)
 - [Work Cited](https://github.com/gabisteele/thesis/blob/master/writing/WorkCited.md)
 
-#Research
+#[Research](https://github.com/gabisteele/thesis/tree/master/Research)
 - [MMC Epilogue Presentation](http://slides.com/gabriellasteele/my-mother-was-a-computer/live#/)
-- [MMC Skimmed PDF]
+- [MMC Skimmed PDF](https://github.com/gabisteele/thesis/blob/master/Research/MMC-Epilogue-Presentation.pdf)
+- [Design Research](http://www.spotify-valentines.com/)
 
