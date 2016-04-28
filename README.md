@@ -3,7 +3,9 @@
 
 - [Project Plan](https://docs.google.com/a/newschool.edu/document/d/1vwXTOknqnHnOrAzWCWo0fyEWGNNEXNt1NDW1zi7EsKA/edit?usp=sharing)
 - [High Fidelity Sketches](https://github.com/gabisteele/thesis/tree/master/work/high%20fidelity%20sketches)
-- [CIB Steam Graph](http://gabisteele.github.io/CIBsteamgraph/)
+-[D3 Templates](https://github.com/gabisteele/thesis/blob/master/work/d3Templates)
+	- [CIB Steam Graph](http://gabisteele.github.io/CIBsteamgraph/)
+	- [MotionGraph](http://gabisteele.github.io/motionGraph/)
 - [Data Sets & Structures](https://github.com/gabisteele/thesis/tree/master/work/data%20structures)
 	- [Mean Scores Table](https://docs.google.com/a/newschool.edu/spreadsheets/d/1M4KQqMIOX0F0y2aWwhNbe1hZbf3TFDaittOWi1Jd8Jo/edit?usp=sharing)
 
