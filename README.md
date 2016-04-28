@@ -5,7 +5,7 @@
 - [High Fidelity Sketches](https://github.com/gabisteele/thesis/tree/master/work/high%20fidelity%20sketches)
 - [D3 Templates](https://github.com/gabisteele/thesis/tree/master/work/d3%20Templates)
 	- [CIB Steam Graph](http://gabisteele.github.io/CIBsteamgraph/)
-	- [MotionGraph](http://gabisteele.github.io/motionGraph/)
+	- [MotionGraph](http://gabisteele.github.io/motionGraph/index.html)
 - [Data Sets & Structures](https://github.com/gabisteele/thesis/tree/master/work/data%20structures)
 	- [Mean Scores Table](https://docs.google.com/a/newschool.edu/spreadsheets/d/1M4KQqMIOX0F0y2aWwhNbe1hZbf3TFDaittOWi1Jd8Jo/edit?usp=sharing)
 
