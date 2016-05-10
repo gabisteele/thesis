@@ -1,4 +1,4 @@
-##Abstract for International Society for Traumatic Stress Studies, Technology and Trauma Conference
+##Abstract
 
 ###Data Visualization of Child Maltreatment and Group Attachment Based Intervention Study 
 
