@@ -1,7 +1,6 @@
 ##Abstract
 
-###Visualizing the Group Attachment Based Intervention Study: 
-####Working to Reduce Child Maltreatment in Vulnerable Families
+###Visualizing the Group Attachment Based Intervention Study: Working to Reduce Child Maltreatment in Vulnerable Families
 
 
 The use of visualization and design when sharing research findings within the greater field of social science is not a common practice. Specifically within the realm of child development and attachment research, static documentation is primary if not sole method of distributing data. Therefore this project sought to challenge the status quo when portraying psychological findings through creating an insightful visualization resource sharing data collected by The Group Attachment Based Intervention study (GABI). The Group Attachment Based Intervention is a clinical trial developed jointly by The New School for Social Research Center for Attachment and Einstein Albert Einstein College of Medicine’s Center for Babies, Toddlers and Families, focused on reducing and preventing child maltreatment. 
