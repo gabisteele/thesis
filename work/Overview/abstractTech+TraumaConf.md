@@ -1,0 +1,10 @@
+##Abstract
+
+###Visualizing the Group Attachment Based Intervention Study: 
+####Working to Reduce Child Maltreatment in Vulnerable Families
+
+
+The use of visualization and design when sharing research findings within the greater field of social science is not a common practice. Specifically within the realm of child development and attachment research, static documentation is primary if not sole method of distributing data. Therefore this project sought to challenge the status quo when portraying psychological findings through creating an insightful visualization resource sharing data collected by The Group Attachment Based Intervention study (GABI). The Group Attachment Based Intervention is a clinical trial developed jointly by The New School for Social Research Center for Attachment and Einstein Albert Einstein College of Medicine’s Center for Babies, Toddlers and Families, focused on reducing and preventing child maltreatment. 
+
+This data visualization targets the largest group of stakeholders involved in the GABI study, labeled as the insights audience. This group describes mental health professionals and members of the immediate and greater psychological community interested in understanding and learning more about the work being conducted through this intervention treatment. Future directions for this project include extending the visualization to aid two other groups of stakeholders known as the action audience and the impact audience. The action audience includes social workers and potential adopters of the treatment that would benefit from a human centered design approach to teaching how best to deliver GABI. The impact stakeholder audience exists as the individuals whom the study itself is targeting such as the vulnerable families in need of support and prevention methods against child abuse and maltreatment. 
+
