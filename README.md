@@ -1,6 +1,9 @@
 
 #[Work](https://github.com/gabisteele/thesis/blob/master/work)
 
+- [Overview](https://docs.google.com/a/newschool.edu/document/d/1vwXTOknqnHnOrAzWCWo0fyEWGNNEXNt1NDW1zi7EsKA/edit?usp=sharing)
+	- [Abstract](https://github.com/gabisteele/thesis/blob/master/writing/abstractTech+TraumaConf.md)
+	- [PNG](https://github.com/gabisteele/thesis/blob/master/work/Gabi_Thesis.png)
 - [Project Plan](https://docs.google.com/a/newschool.edu/document/d/1vwXTOknqnHnOrAzWCWo0fyEWGNNEXNt1NDW1zi7EsKA/edit?usp=sharing)
 - [High Fidelity Sketches](https://github.com/gabisteele/thesis/tree/master/work/high%20fidelity%20sketches)
 - [D3 Templates](https://github.com/gabisteele/thesis/tree/master/work/d3%20Templates)
