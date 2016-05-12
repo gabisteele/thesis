@@ -5,7 +5,7 @@ $(document).ready(function()	{
 		right : 20,
 		bottom : 30,
 		left : 40
-	}, width = 725 - margin.left - margin.right, height = 600 - margin.top - margin.bottom;
+	}, width = 800 - margin.left - margin.right, height = 500 - margin.top - margin.bottom;
 
 	var x = d3.scale.linear()
 		.range([0, width]);
@@ -72,7 +72,7 @@ $(document).ready(function()	{
 				.text("Avg. Student Loan Total ($)")
 
 		//legend y position
-		var LYP = 300, 
+		var LYP = 10, 
 			LXP = 570;
 			
 		svg.append("text").attr("class", "label").attr("x", LXP - 5).attr("y", LYP).text("Institution Type").style("font-weight", "bold");
@@ -197,83 +197,24 @@ else if (running == true && $("#slider").val() == maxstep) {
 				.attr("cy", function(d) {
 			
 					switch ($("#slider").val()) {
-						case "2000":
+						case "Time One":
 							return y(d.loan9900);
 							break;
-						case "2001":
+						case "Time Two":
 							return y(d.loan0001);
 							break;
-						case "2002":
-							return y(d.loan0102);
-							break;
-						case "2003":
-							return y(d.loan0203);
-							break;
-						case "2004":
-							return y(d.loan0304);
-							break;
-						case "2005":
-							return y(d.loan0405);
-							break;
-						case "2006":
-							return y(d.loan0506);
-							break;
-						case "2007":
-							return y(d.loan0607);
-							break;
-						case "2008":
-							return y(d.loan0708);
-							break;
-						case "2009":
-							return y(d.loan0809);
-							break;
-						case "2010":
-							return y(d.loan0910);
-							break;
-						case "2011":
-							return y(d.loan1011);
-							break;
+						
 					}
 				})
 				.transition()
 				.duration(1000)
 				.attr("cx", function(d) {
 					switch ($("#slider").val()) {
-						case "2000":
+						case "Time One":
 							return x(d.TF9900);
 							break;
-						case "2001":
+						case "Time Two":
 							return x(d.TF0001);
-							break;
-						case "2002":
-							return x(d.TF0102);
-							break;
-						case "2003":
-							return x(d.TF0203);
-							break;
-						case "2004":
-							return x(d.TF0304);
-							break;
-						case "2005":
-							return x(d.TF0405);
-							break;
-						case "2006":
-							return x(d.TF0506);
-							break;
-						case "2007":
-							return x(d.TF0607);
-							break;
-						case "2008":
-							return x(d.TF0708);
-							break;
-						case "2009":
-							return x(d.TF0809);
-							break;
-						case "2010":
-							return x(d.TF0910);
-							break;
-						case "2011":
-							return x(d.TF1011);
 							break;
 					}
 				});

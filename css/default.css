@@ -51,7 +51,7 @@ html {
     .title {
       background-color: #4c5867;
       color: white;
-      margin-top: 50px;
+      margin-top: 10px;
       margin-bottom: 5px;
       font-size: 60px;
       font-weight: 60;
@@ -61,23 +61,7 @@ html {
            
     }
     
-    .pagetwo{
-      background-color: #4c5867;
-      color: white;
-      font-size: 30px;
-      z-index: 10;
-      margin-top: 20;
-      margin-bottom: 10px;
-    }
-    
-    .p2body{
-      color:#4c5867;
-    }
-  
-  p2txt {
-    margin-top: 10%;
-    margin-left:100%;
-  }
+   
   
     h1 span {
           z-index: 10;
@@ -269,6 +253,25 @@ html {
       z-index: 1;
     }
     
+     .pagetwo{
+      background-color: #4c5867;
+      color: white;
+      font-size: 40px;
+      z-index: 10;
+      margin-top: 20;
+      margin-bottom: 10px;
+    }
+    
+    .p2body{
+      color:#4c5867;
+    }
+  
+  p2txt {
+    margin-top: 10%;
+    margin-left:100%;
+  }
+    
+    
     .main section.page1 {
       /*background:rgb(230, 217, 200);*/
     }
@@ -304,7 +307,7 @@ html {
     .main section.page2 {
       background: #fff;
       color:#000;
-      /*background: #555557 url(back-phone.png) no-repeat center -150px ;*/
+      width: 600px;
     }
     .main section.page2 > img {
       position: absolute;
@@ -315,23 +318,23 @@ html {
     .main section.page2 .page_container {
       /*margin-top: 240px;*/
       overflow: hidden;
+      width: 600px;
     }
     .main section.page2 h1 {
-      text-align: center;
+      text-align: left;
       padding: 0;
+      margin-top: 50px;
+      margin-left:20px;
       margin-bottom: 15px;
-      font-size: 50px;
       letter-spacing: -1px;
+      width: 700px;
       /*color: white;*/
     }
     .main section.page2 h2 {
-      text-align: center;
-      line-height: 160%;
-      /* font-weight: 100; */
-      /* font-weight: bold; */
-      font-family: 'open sans';
-      font-size: 1.2em;
-      margin:30px 0 35px 0;
+      text-align: left;
+      line-height: 100%;
+      font-size: 40px;
+      margin: 50px 0 0 0;
     }
     .viewing-page-2 .back{
       background: rgba(0, 0, 0, 0.25);
@@ -339,17 +342,19 @@ html {
       }
     .main section.page3 {
       background: #eee;
+      
+  
       /*background:url(tilted-phone.png) no-repeat 156px -150px ;*/
     }
     .main section.page3 .page_container {
       overflow: hidden;
-      width: 500px;
       right: -285px;
-      margin: 50px 0 0 0;
+      margin: 100px 0 0 0;
     }
     .main section.page3 h1 {
       text-align: left;
       padding: 0;
+      width: 700px;
       margin-bottom: 0;
       font-size: 70px;
       letter-spacing: -1px;
@@ -362,6 +367,21 @@ html {
       font-weight: 100;
       font-size: 21px;
     }
+    
+    .main section.page4 {
+      background: #4c5867;
+      color: rgba(0,0,0,0.85);
+      text-align: left;
+      line-height: 160%;
+      font-weight: 100;
+      font-size: 21px;
+    }
+    
+    .main section.page5{
+      background: #e6e6e6;
+    }
+    
+    
     body.disabled-onepage-scroll .onepage-wrapper  section {
       min-height: 100%;
       height: auto;
