@@ -504,7 +504,7 @@ a[data-lightbox]:hover img{
 	background-color:#4c5867;
 }
 .bgc-outer-space{
-	background-color:#4c5867;
+	background-color:#363f49;
 }
 .bgc-white{
 	background-color:#f2e6d9; 
@@ -759,11 +759,34 @@ a[data-lightbox]:hover img{
 	margin-top: 20px;
 }
 
+#historytxt{
+	z-index: 10;
+	margin: 0 5px 5px 0;
+}
+
 #newschool {
 	margin-right:100px;
+	width: 50%;
+	height: 50%;
 }
 
 #einstein {
 	
-	margin-left:1000px;
+	margin-left:600px;
+	width: 70%;
+	height: 70%
+}
+
+#iFrame-l{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	margin-right: 800px;
+}
+
+#iFrame-r{
+	position: float;
+	width: 50%;
+	height: 50%;
+	margin-left: 800px;
 }

@@ -1,8 +1,8 @@
 var body = d3.select('body'),
 	menu = d3.select("#menu"),
 	margin = { top: 0, right: 0, bottom: 30, left: 40 },
-	height = 1000 - margin.top - margin.bottom,
-	width = 1050 - margin.left - margin.right,
+	height = 600 - margin.top - margin.bottom,
+	width = 650 - margin.left - margin.right,
 	formatNumber = d3.format(',.1f'),
 	formatCurrency = d3.format('$,.0f'),
 	tooltip = d3.select("body").append("div")
