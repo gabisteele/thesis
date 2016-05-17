@@ -781,12 +781,12 @@ a[data-lightbox]:hover img{
 	position: absolute;
 	width: 50%;
 	height: 50%;
-	margin-right: 800px;
+	margin-right: 700px;
 }
 
 #iFrame-r{
 	position: float;
 	width: 50%;
 	height: 50%;
-	margin-left: 800px;
+	margin-left: 700px;
 }
