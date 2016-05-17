@@ -91,7 +91,7 @@ d3.csv('motionGraph_data_neg1.csv',function (data) {
 			.attr("dy", "2em")
     		.attr("dx", width/1.6)
 			.style('text-anchor','end')
-			.text('Household Income');
+			.text('Parent Child Relationship Scores based on Interactive Behaviors');
 
 	svg.append('g')
 		.attr('class','axis')
@@ -109,13 +109,13 @@ d3.csv('motionGraph_data_neg1.csv',function (data) {
 		.data(data)
 		.enter()
 		.append('circle')
-			// .attr('cx',function (d) { if (d['T1_Dyadic_Cib_Reciprocity'] != -1) { return xScale(d['T1_Dyadic_Cib_Reciprocity'])} })
-			// .style("display", function(d) { return d['T1_Dyadic_Cib_Reciprocity'] == -1 ? "none" : null; }) // hides null value
-			// .style("display", function(d) { return (d['T1_Dyadic_Cib_Reciprocity'] == -1 ? d['ParentACES'] == -1)
+		.style("opacity", .6)
+	
+
 			.attr('cx',function (d) { return xScale(d['T1_Dyadic_Cib_Reciprocity'])})
 			.attr('cy',function (d) { return yScale(d['ParentACES']) })
 			.attr("visibility", function(d,i){
-    			if(d['T1_Dyadic_Cib_Reciprocity'] == -1 ||  d['ParentACES'] == -1) return "hidden";
+    			if(d['T1_Dyadic_Cib_Reciprocity'] == -1 ||  d['ParentACES'] == -1) return "hidden"; // hides the nulls
 			})
 			// gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi 
 	
@@ -123,14 +123,16 @@ d3.csv('motionGraph_data_neg1.csv',function (data) {
 		.on("mouseover", function(d) {
 			tooltip.transition()
 			.duration(250)
-			.style("opacity", .9);
+			.style("opacity", 1)
 			tooltip.html(
-	          "<p><strong>ParentACES:  </strong>" + "&ndash;" + "</p>" +
-	          "<p><strong>T1_ChildTotalACES:  </strong>" + formatNumber(d['T1_ChildTotalACES']) + " " +
-	          "<p><strong>T1_Dyadic_Cib_Reciprocity:  </strong>" + formatNumber(d['T1_Dyadic_Cib_Reciprocity']) + " out of 5 " +
-	          "<p><strong>ChildEthnicity:  </strong>" + d['ChildEthnicity'] + " " +
-	          "<p><strong>ChildAge:  </strong>" + d['ChildAge'] + " months " +
+	          "<p><strong>Parent ACES Scoce:  </strong>" + d['ParentACES'] + "/10" +
+	          "<p><strong>Child's ACE score:  </strong>" + (d['T1_ChildTotalACES']) + "/10" +
+	          "<p><strong>Parent-Child Releationship Score:  </strong>" + d['T1_Dyadic_Cib_Reciprocity'] + "/5 " +
+	          "<p><strong>Child Ethnicity:  </strong>" + d['ChildEthnicity'] + " " +
+	          "<p><strong>Child Age:  </strong>" + d['ChildAge'] + " months " +
 	          "<p><strong>Group:  </strong>" + d['Group'] + ""
+	          
+	    	// "<p><strong>Mother's Employment Status: </strong>" +d['Mothers_Employment_Status'] +
 			)
 			.style("left", (d3.event.pageX + 15) + "px")
 			.style("top", (d3.event.pageY - 28) + "px");
@@ -141,7 +143,6 @@ d3.csv('motionGraph_data_neg1.csv',function (data) {
 			.style("opacity", 0);
 		});
 
-		console.log("hey gabi");
 
 	function xChange() {
 
