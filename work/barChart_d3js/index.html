@@ -1,153 +1,536 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<style>
+<<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="bootstrap theme, bootstrap template, html5 theme">
+    <meta name="description" content="Free Bootstrap template based on HTML5 and CSS3">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: auto;
-  position: relative;
-  width: 960px;
-}
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="./css/animate.css"/>
+    <script src="./js/jquery-2.1.0.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/typer.js"></script>
+    <script src="./js/blocs.js"></script>
+    <script src="./js/chart.js"></script>
+    <link rel='stylesheet' href='./css/et-line.min.css'/>
+    <link rel='stylesheet' href='./css/font-awesome.min.css'/>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
 
-text {
-  font: 10px sans-serif;
-}
+    <title>VisualizingGABI</title>
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
+    <!-- Navigation Bloc -->
+    <div class="bloc bgc-carmine-pink d-bloc" id="nav-bloc">
+        <div class="container">
+            <nav class="navbar row">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><span class="et-icon-gears icon-sm icon-white zoomIn animated"></span> Learn About GABI</a>
+                    <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-1">
+                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+                            class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-1">
+                    <ul class="site-navigation nav navbar-nav">
+                        <li>
+                            <a  onclick="scrollToTarget('#services')">Why Visualize?</a>
+                        </li>
 
-form {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
+                        <li>
+                            <a onclick="scrollToTarget('#history')">History of the Study</a>
+                        </li>
+                        <li>
+                            <a onclick="scrollToTarget('#demographics')">Participant Demographics</a>
+                        </li>
+                       
+                        <li>
+                            <a onclick="scrollToTarget('#porfolio')">Data Visualizations</a>
+                        </li>
+                        <!-- <li>
+                            <a onclick="scrollToTarget('#faq')">FAQ</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navigation Bloc END -->
 
-</style>
-<form>
-  <label><input type="radio" name="mode" value="grouped"> Grouped</label>
-  <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
-</form>
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script>
+    <!-- header -->
+    <div class="bloc bgc-outer-space bg-city-overlay d-bloc" id="header">
+        <div class="container bloc-xl">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="text-center mg-lg tc-white">Visualizing: <span
+                            data-typer-targets="The Group Attachment Based Intervention Study"></span></h3>
 
-var n = 4, // number of layers
-    m = 58, // number of samples per layer
-    stack = d3.layout.stack(),
-    layers = stack(d3.range(n).map(function() { return bumpLayer(m, .1); })),
-    yGroupMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y; }); }),
-    yStackMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y0 + d.y; }); });
+                    <p class="text-center  mg-lg animated fadeInUp animDelay02">
+                           A pragmatic clinical trial focused on reducing child maltreatment in vulnerable families. <br/> The group was founded in the South Bronx, in the poorest congressional district in the United States. 
+                    </p>
 
-var margin = {top: 40, right: 10, bottom: 20, left: 10},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+                    <div class="text-center">
+                        <a class="btn  btn-xl btn-wire wire-btn-carmine-pink animDelay06 animated fadeInUp"
+                           onclick="scrollToTarget('#porfolio')">View the Data</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header END -->
 
-var x = d3.scale.ordinal()
-    .domain(d3.range(m))
-    .rangeRoundBands([0, width], .08);
+    <!-- services -->
+    <div class="bloc l-bloc bgc-white" id="services">
+        <div class="container bloc-lg">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="text-center">
+                       <span <a href="#" data-lightbox="img/stackedpaper.png" data-caption="Image description"><img
+                            src="img/stackedpaper.png" class="img-responsive animated zoomIn" id="paper" alt="portfolio"/></a></span>
+                    </div>
+                    <h3 class="text-center mg-md ">
+                        Static Data Sharing
+                    </h3>
 
-var y = d3.scale.linear()
-    .domain([0, yStackMax])
-    .range([height, 0]);
+                    <p class="text-center">
+                        Social Science research findings are always shared using static platforms. Writing a paper and uploading it as a PDF to scholarly.org is still static!
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="text-center">
+                        <span <a href="#" data-lightbox="img/hci_icon.png" data-caption="Image description"><img
+                            src="img/hci_icon.png" class="img-responsive animated zoomIn" id="hci"
+                         alt="portfolio"/></a></span>
+                    </div>
+                    <h3 class="text-center mg-md ">
+                        Human Centered Design
+                    </h3>
 
-var color = d3.scale.linear()
-    .domain([0, n - 1])
-    .range(["#aad", "#556"]);
+                    <p class="text-center">
+                        Having a stronger focus on human centered design when portraying human centered data is an essential next step for the Social Science community. Much of the work being conducted is shared and taught without implementation of HCI design principles and consideration of the way in which humans are able to succesfully absorb large amounts of information.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="text-center">
+                        <span <a href="#" data-lightbox="img/.png" data-caption="Image description" ><img
+                            src="img/stackedpaper.png" class="img-responsive animated zoomIn" alt="portfolio"/></a></span>
+                    </div>
+                    <h3 class="text-center mg-md ">
+                        Raising the Status Quo
+                    </h3>
 
-var xAxis = d3.svg.axis()
-    .scale(x)
-    .tickSize(0)
-    .tickPadding(6)
-    .orient("bottom");
+                    <p class="text-center">
+                       Those research groups that do begin employing data visualization techniques when sharing their findings will set the bar higher throughout the entire psychological community.  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services END -->
 
-var svg = d3.select("body").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+<!-- history -->
+    <!--<div class="bloc bgc-carmine-pink d-bloc" id="history">-->
+    <!--    <div class="container bloc-sm">-->
+    <!--        <div class="row">-->
+    <!--            <div class="col-sm-12">-->
+    <!--                <h2 class="text-center mg-md ">-->
+    <!--                    History of the Group Attachment Based Intervention-->
+    <!--                </h2>-->
+    <!--          <div class="row">-->
+              <!--  <div class="col-sm-5">-->
+              <!--      <div class="text-center">-->
+                        <!--<a href="#" data-lightbox="img/NewSchool.png" data-caption="Image description"><img-->
+                        <!--    src="img/NewSchool.png" class="img-responsive animated zoomIn" id="newschool" alt="portfolio"/></a>-->
+                            
+              <!--              <a href="#" data-lightbox="img/EinstienHospital.png" data-caption="Albert E"><img-->
+              <!--              src="img/EinstienHospital.png" class="img-responsive animated zoomIn" id="newschool" alt="portfolio"/></a>-->
+              
+               <!--<div class="col-sm-4">-->
+               <!--     <div class="text-center">-->
+               <!--                   <a href="#" data-lightbox="img/NewSchool.png" data-caption="Image description"><img-->
+               <!--             src="img/NewSchool.png" class="img-responsive animated zoomIn" id="newschool" alt="portfolio"/></a>-->
+               <!--     </div>-->
+               <!--     <h3 class="text-center mg-md ">-->
+               <!--         Static Data Sharing-->
+               <!--     </h3>-->
 
-var layer = svg.selectAll(".layer")
-    .data(layers)
-  .enter().append("g")
-    .attr("class", "layer")
-    .style("fill", function(d, i) { return color(i); });
+               <!--     <p class="text-center">-->
+               <!--         Social Science research findings are always shared using static platforms. Writing a paper and uploading it as a PDF to scholarly.org is still static!-->
+               <!--     </p>-->
+               <!-- </div>-->
+               
+               <!-- <div class="col-sm-4">-->
+               <!--     <div class="text-center">-->
+               <!--           <a href="#" data-lightbox="img/EinsteinHospital.png" data-caption="Image description"><img-->
+               <!--             src="img/EinsteinHospital.png" class="img-responsive animated zoomIn" id alt="portfolio"/></a>-->
+               <!--     <h3 class="text-center mg-md ">-->
+               <!--         Albert Einstein College of Medicine-->
+               <!--     </h3>-->
 
-var rect = layer.selectAll("rect")
-    .data(function(d) { return d; })
-  .enter().append("rect")
-    .attr("x", function(d) { return x(d.x); })
-    .attr("y", height)
-    .attr("width", x.rangeBand())
-    .attr("height", 0);
+               <!--     <p class="text-center">-->
+               <!--         A little feature description could go here. A little feature description.-->
+               <!--     </p>-->
+               <!-- </div>-->
+               <!--     </div>-->
+               <!--     </div>-->
+               <!--     </div>-->
+                    
+                    
+                    
+                 
+                  
+                    <!--<h3 class="text-center mg-md ">-->
+                    <!--    Static Data Sharing-->
+                    <!--</h3>-->
 
-rect.transition()
-    .delay(function(d, i) { return i * 10; })
-    .attr("y", function(d) { return y(d.y0 + d.y); })
-    .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); });
+                    <!--<p class="text-center">-->
+                    <!--    Social Science research findings are always shared using static platforms. Writing a paper and uploading it as a PDF to scholarly.org is still static!-->
+                    <!--</p>-->
+                
+    <!-- team END -->
 
-svg.append("g")
-    .attr("class", "x axis")
-    .attr("transform", "translate(0," + height + ")")
-    .call(xAxis);
 
-d3.selectAll("input").on("change", change);
+    <!-- demographics -->
+    <div class="bloc bgc-carmine-pink d-bloc" id="demographics">
+        <div class="container bloc-sm">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center mg-md ">
+                        Participant Demographics
+                    </h2>
 
-var timeout = setTimeout(function() {
-  d3.select("input[value=\"grouped\"]").property("checked", true).each(change);
-}, 2000);
+                    <p class="sub-heading text-center">
+                        Who does the treatment target?
+                    </p>
+                </div>
+            </div>
+            <div class="row voffset-lg">
+                <div class="col-sm-3">
+                    <img src="img/adolf-zika-872335_640.jpg" class="img-responsive animated zoomIn" alt="member"/>
 
-function change() {
-  clearTimeout(timeout);
-  if (this.value === "grouped") transitionGrouped();
-  else transitionStacked();
-}
+                    <h3 class="text-center mg-md">
+                        JohnDoe
+                    </h3>
 
-function transitionGrouped() {
-  y.domain([0, yGroupMax]);
+                    <p class="text-center">
+                        Mother
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/castro-1080873_640.jpg" class="img-responsive animated zoomIn animDelay02" alt="member"/>
 
-  rect.transition()
-      .duration(500)
-      .delay(function(d, i) { return i * 10; })
-      .attr("x", function(d, i, j) { return x(d.x) + x.rangeBand() / n * j; })
-      .attr("width", x.rangeBand() / n)
-    .transition()
-      .attr("y", function(d) { return y(d.y); })
-      .attr("height", function(d) { return height - y(d.y); });
-}
+                    <h3 class="text-center mg-md">
+                        Jane Doe
+                    </h3>
 
-function transitionStacked() {
-  y.domain([0, yStackMax]);
+                    <p class="text-center">
+                       Mother
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/woman-868571_640.jpg" class="img-responsive animDelay04 animated zoomIn" alt="member"/>
 
-  rect.transition()
-      .duration(500)
-      .delay(function(d, i) { return i * 10; })
-      .attr("y", function(d) { return y(d.y0 + d.y); })
-      .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
-    .transition()
-      .attr("x", function(d) { return x(d.x); })
-      .attr("width", x.rangeBand());
-}
+                    <h3 class="text-center mg-md">
+                        Jane Doe
+                    </h3>
 
-// Inspired by Lee Byron's test data generator.
-function bumpLayer(n, o) {
+                    <p class="text-center">
+                        Mother
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/open-door-1156365_640.jpg" class="img-responsive animDelay06 animated zoomIn" alt="member"/>
 
-  function bump(a) {
-    var x = 1 / (.1 + Math.random()),
-        y = 2 * Math.random() - .5,
-        z = 10 / (.1 + Math.random());
-    for (var i = 0; i < n; i++) {
-      var w = (i / n - y) * z;
-      a[i] += x * Math.exp(-w * w);
-    }
-  }
+                    <h3 class="text-center mg-md">
+                        John Doe
+                    </h3>
 
-  var a = [], i;
-  for (i = 0; i < n; ++i) a[i] = o + o * Math.random();
-  for (i = 0; i < 5; ++i) bump(a);
-  return a.map(function(d, i) { return {x: i, y: Math.max(0, d)}; });
-}
+                    <p class="text-center">
+                        Father
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- team END -->
 
-</script>
+    <!-- testimonials -->
+    <div class="bloc bgc-white l-bloc" id="bloc-6">
+        <div class="container bloc-md">
+            <!--<div class="col-sm-2 col-sm-offset-5 col-xs-6 col-xs-offset-3">-->
+            <!--<img src="img/bramk.jpg" class="img-responsive img-circle center-block img-frame-rd-md"/>-->
+            <!--</div>-->
+            <!--<div class="col-xs-12 col-md-8 col-md-offset-2">-->
+            <!--<h3 class="text-center ">-->
+            <!--<i>"Eventually everything connects - people, ideas, objects. The quality of the connections is the-->
+            <!--key to quality per se."</i>-->
+            <!--</h3>-->
+
+            <!--<p class="text-center">-->
+            <!--<strong>Charles Eames</strong>-->
+            <!--</p>-->
+            <!--</div>-->
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+                    <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                            <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item">
+                                <div class="profile-circle">
+                                    <img src="img/ruth.png"
+                                         class="img-responsive img-circle center-block img-frame-rd-md" alt="member"/>
+                                </div>
+                                <blockquote>
+                                    <p>At home there’s no one to appreciate – here, they appreciate what I’m doing with my child. Here, they’re here to see the smile that comes out of her face when I do something and she laughs. That’s it, like, they’re looking for it, to see – they are there to notice the smile, and when you bond with your kids. At home, things go unnoticed – the hugs, the smiles – nobody else acknowledges it, not my mom, her grandmother, not her father…and they look at me like I’m abnormal, because my mother was never affectionate, she never did that. </p>
+                                </blockquote>
+                            </div>
+                            <div class="item">
+                                <div class="profile-circle">
+                                    <img src="img/ruth.png"
+                                         class="img-responsive img-circle center-block img-frame-rd-md" alt="member"/>
+                                </div>
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                </blockquote>
+                            </div>
+                            <div class="active item">
+                                <div class="profile-circle">
+                                    <img src="img/ruth.png"
+                                         class="img-responsive img-circle center-block img-frame-rd-md" alt="member"/>
+                                </div>
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonials END -->
+
+<!-- clients -->
+    <div class="bloc bgc-platinum l-bloc" id="bloc-3">
+            <div class="col-sm-9">
+                    <!--<h3 id="press">-->
+                    <!--    PRESS-->
+                    <!--</h3>-->
+                </div>
+        <div class="container bloc-lg">
+            <div class="row">
+             
+                <div class="col-sm-3 text-center">
+                    <img src="img/rh.png" id="rh" alt="ny-times"/>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img src="img/amnh.png" id="amnh" alt="ny-wired"/>
+                </div>
+             
+            </div>
+        </div>
+    </div>
+    <!-- clients END -->
+    <!-- team2 -->
+    <div class="bloc bgc-carmine-pink d-bloc" id="team2">
+        <div class="container bloc-sm">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center mg-md ">
+                        Chart goes here
+                    </h2>
+
+                    <p class="sub-heading text-center">
+                        Who does the treatment target?
+                    </p>
+                </div>
+            </div>
+            <div class="row voffset-lg">
+                <div class="col-sm-3">
+                    <img src="img/adolf-zika-872335_640.jpg" class="img-responsive animated zoomIn" alt="member"/>
+
+                    <h3 class="text-center mg-md">
+                        JohnDoe
+                    </h3>
+
+                    <p class="text-center">
+                        Mother
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/castro-1080873_640.jpg" class="img-responsive animated zoomIn animDelay02" alt="member"/>
+
+                    <h3 class="text-center mg-md">
+                        Jane Doe
+                    </h3>
+
+                    <p class="text-center">
+                       Mother
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/woman-868571_640.jpg" class="img-responsive animDelay04 animated zoomIn" alt="member"/>
+
+                    <h3 class="text-center mg-md">
+                        Jane Doe
+                    </h3>
+
+                    <p class="text-center">
+                        Mother
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/open-door-1156365_640.jpg" class="img-responsive animDelay06 animated zoomIn" alt="member"/>
+
+                    <h3 class="text-center mg-md">
+                        John Doe
+                    </h3>
+
+                    <p class="text-center">
+                        Father
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- team END -->
+
+
+    <!-- Footer - quote -->
+   <!-- <div class="bloc bgc-carmine-pink d-bloc" id="quote">-->
+   <!--     <div class="container bloc-md">-->
+   <!--         <div class="row">-->
+   <!--             <div class="col-sm-9">-->
+   <!--                 <h3 class="mg-md animated zoomIn">-->
+   <!--                     Legend-->
+   <!--                 </h3>-->
+   <!--             </div>-->
+   <!--             <div class="col-sm-3 text-center">-->
+   <!--                 <a href="index.html" class="btn btn-lg wire-btn-white btn-wire animated zoomIn">Interpreting the Dataset</a>-->
+   <!--             </div>-->
+   <!--         </div>-->
+   <!--     </div>-->
+   <!-- </div>-->
+   <!--  <!-- Footer - quote END -->
+
+
+    <!-- ScrollToTop Button -->
+    <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+            class="fa fa-chevron-up"></span></a>
+    <!-- ScrollToTop Button END-->
+
+  <!-- porfolio -->
+    <div class="bloc l-bloc bgc-white" id="porfolio">
+        <div class="container bloc-lg">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center mg-md ">
+                        Scatterplot Goes Here
+                    </h2>
+
+                    <p class="text-center sub-heading">
+                        Examining the Data
+                    </p>
+                </div>
+            </div>
+            <div class="row voffset">
+                <div class="col-sm-3">
+                    <a href="#" data-lightbox="img/NewSchool.png" data-caption="Image description"><img
+                            src="img/NewSchool.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" data-lightbox="img/player.png" data-caption="Image description"><img
+                            src="img/player.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" data-lightbox="img/productshot.png" data-caption="Image description"><img
+                            src="img/productshot.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" data-lightbox="img/food-widget.png" data-caption="Image description"><img
+                            src="img/food-widget.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                </div>
+            </div>
+            <div class="row voffset">
+                <div class="col-sm-3">
+                    <a href="#" data-lightbox="img/work-11.jpg" data-caption="Image description"><img
+                            src="img/work-11.jpg" class="img-responsive animDelay04 animated zoomIn" alt="portfolio"/></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" data-lightbox="img/food-widget.png" data-caption="Image description"><img
+                            src="img/food-widget.png" class="img-responsive animated zoomIn animDelay04" alt="portfolio"/></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" data-lightbox="img/work-11.jpg" data-caption="Image description"><img
+                            src="img/freebie-app.png" class="img-responsive animDelay04 animated zoomIn" alt="portfolio"/></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" data-lightbox="img/dribbble-preview.png" data-caption="Image description"><img
+                            src="img/dribbble-preview.png" class="animDelay04 animated zoomIn img-responsive" alt="portfolio"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- porfolio END -->
+
+ 
+
+    <!-- Footer - bloc-8 -->
+    <div class="bloc bgc-platinum l-bloc" id="bloc-8">
+        <div class="container bloc-sm">
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    <div class="col-sm-3 text-center">
+                        <a class="social-lg" href="http://www.twitter.com/BootstrapOcean" target="_blank"><span
+                                class="fa fa-twitter icon-md icon-carmine-pink"></span></a>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <a class="social-lg" href="https://www.facebook.com/BootstrapOcean" target="_blank"><span
+                                class="fa fa-facebook icon-md icon-carmine-pink"></span></a>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <a class="social-lg"
+                           href="https://plus.google.com/b/116513433102470788789/116513433102470788789/posts"
+                           target="_blank"><span class="fa fa-google-plus icon-md icon-carmine-pink"></span></a>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <a class="social-lg" href="#"><span class="fa fa-dribbble icon-md icon-carmine-pink"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+                <div class="col-xs-12 col-md-8 col-md-offset-2 text-center mg-md">Created by <a
+                        href="http://www.gabriellasteele.com" target="_blank">Gabriella Steele</a></div>
+            </div>
+    <!-- Footer - bloc-8 END -->
+
+
+</div>
+<!-- Main container END -->
+</body>
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics END -->
+
+</html>
