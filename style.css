@@ -376,14 +376,19 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-#paper {
-i
-}
+
 
 #hci{
 	width: 37%;
 	height: 37%;
 	margin-left: 100px
+}
+
+#insights{
+	width: 37%;
+	height: 37%;
+	margin-top: -30px;
+	margin-left: 100px;
 }
 
 /* iFrame */
