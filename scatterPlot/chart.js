@@ -110,7 +110,9 @@ d3.csv('motionGraph_data_neg1.csv',function (data) {
 		.enter()
 		.append('circle')
 		.style("opacity", .6)
-	
+
+
+
 
 			.attr('cx',function (d) { return xScale(d['T1_Dyadic_Cib_Reciprocity'])})
 			.attr('cy',function (d) { return yScale(d['ParentACES']) })
@@ -143,6 +145,10 @@ d3.csv('motionGraph_data_neg1.csv',function (data) {
 			.style("opacity", 0);
 		});
 
+	circles.each(function(d,i) {
+  d.circles = xaxxis(d.x) + random_circles();
+})
+circles.attr("cx", function(d,i) { return d.jitter });
 
 	function xChange() {
 
