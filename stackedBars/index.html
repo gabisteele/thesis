@@ -6,11 +6,11 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: auto;
   position: relative;
-  width: 1360px;
+  width: 1200px;
 }
 
 text {
-  font: 10px sans-serif;
+  font: 12px sans-serif;
 }
 
 .axis path,
@@ -106,13 +106,18 @@ var n = 4, // number of layers
     }
     
     
-var margin = {top: 40, right: 10, bottom: 20, left: 10},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+var margin = {top: 10, right: 35, bottom: 150, left: 35},
+    width = 1200 - margin.left - margin.right,
+    height = 600 - margin.top - margin.bottom;
 
 var x = d3.scale.ordinal()
     .domain(d3.range(m))
     .rangeRoundBands([0, width], .08);
+    
+var s = d3.scale.ordinal()
+    .domain(data.map(function(d) { 
+    	return d.Behavior; }))
+    .rangeBands([0, width]);
     
     console.log(x);
 
@@ -121,12 +126,12 @@ var y = d3.scale.linear()
     .range([height, 0]);
 
 // color to be set
-var color = ["#a44", "#a00", "#044", "#0aa"];
+var color = ["rgb(14, 61, 161)", "rgb(28, 75, 175)", "rgb(178, 103, 82)", "rgb(198, 123, 102)"];
     
     console.log(color[0]);
 
 var xAxis = d3.svg.axis()
-    .scale(x)
+    .scale(s)
     .tickSize(0)
     .tickPadding(6)
     .orient("bottom");
@@ -159,7 +164,12 @@ rect.transition()
 svg.append("g")
     .attr("class", "x axis")
     .attr("transform", "translate(0," + height + ")")
-    .call(xAxis);
+    .call(xAxis)
+    .selectAll("text")  
+            .style("text-anchor", "end")
+            .attr("dx", "-.8em")
+            .attr("dy", ".15em")
+            .attr("transform", "rotate(-55)" );
 
 var timeout = setTimeout(function() {
   transitionGrouped();
