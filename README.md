@@ -22,8 +22,8 @@
 	- [Mean Scores Table](https://docs.google.com/a/newschool.edu/spreadsheets/d/1M4KQqMIOX0F0y2aWwhNbe1hZbf3TFDaittOWi1Jd8Jo/edit?usp=sharing)
 
 #[Writing](https://github.com/gabisteele/thesis/blob/master/writing)
-
-- [Treatment](https://docs.google.com/a/newschool.edu/document/d/15Augi7wcEqDfikrevVRiNnDyen9OsmEaMzd2oziuM1Q/edit?usp=sharing)
+- [Partial Treatment in PDF](https://github.com/gabisteele/thesis/blob/master/writing/GabriellaSteele_ThesisWrittenTreatment_PartialForm.pdf)
+- [Partial Treatment in Markdown Form](https://docs.google.com/a/newschool.edu/document/d/15Augi7wcEqDfikrevVRiNnDyen9OsmEaMzd2oziuM1Q/edit?usp=sharing)
 - [Outline](https://github.com/gabisteele/thesis/blob/master/writing/outline.md)
 - [Abstract](https://github.com/gabisteele/thesis/blob/master/writing/abstractTech%2BTraumaConf.md)
 - [Story Map](https://github.com/gabisteele/thesis/blob/master/writing/storyMap.md)
