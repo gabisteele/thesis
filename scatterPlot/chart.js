@@ -91,7 +91,7 @@ d3.csv('motionGraph_data_neg1.csv',function (data) {
 			.attr("dy", "2em")
     		.attr("dx", width/1.6)
 			.style('text-anchor','end')
-			.text('Parent Child Relationship Scores based on Interactive Behaviors');
+			.text('');
 
 	svg.append('g')
 		.attr('class','axis')
