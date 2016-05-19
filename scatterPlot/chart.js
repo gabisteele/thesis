@@ -12,8 +12,8 @@ var body = d3.select('body'),
 d3.csv('motionGraph_data_neg1.csv',function (data) {
 
 
-	var xVars = [{"variable":"T1_Dyadic_Cib_Reciprocity"},{"variable":"T1_Cib_PositiveAffect"},];
-	var yVars = [{"variable":"ParentACES"},{"variable":"T1_ChildTotalACES"},{"variable":"T1_StressorChecklist_Total"}];
+	var xVars = [{"variable":"Parent Child Relationship Score"},{"variable":"Parent Level of Support for Child"},{"variable":"Child Level of Positive Emotion"}];
+	var yVars = [{"variable":"Parent ACE Score"},{"variable":"Child ACE Score"},{"variable":"Parent Stress Level"}];
 
 
 	
@@ -48,15 +48,15 @@ d3.csv('motionGraph_data_neg1.csv',function (data) {
 		.attr('value', function (d) { return d.variable })
 		.text(function (d) { return d.variable ;});
 
-	d3.select("[id='ParentACES']")
+	d3.select("[id='Parent ACE Score']")
 		.attr("selected", "selected");
 
 	var xScale = d3.scale.linear()
-		.domain([d3.min(data,function (d) { return 0.93*d['T1_Dyadic_Cib_Reciprocity']}),d3.max(data,function (d) { return 1.07*d['T1_Dyadic_Cib_Reciprocity']})])
+		.domain([d3.min(data,function (d) { return 0.93*d['Parent Child Relationship Score']}),d3.max(data,function (d) { return 1.07*d['Parent Child Relationship Score']})])
 		.range([0,width]);
 
 	var yScale = d3.scale.linear()
-		.domain([d3.min(data,function (d) { return 0.98*d['ParentACES']}),d3.max(data,function (d) { return 1.02*d['ParentACES']})])
+		.domain([d3.min(data,function (d) { return 0.98*d['Parent ACE Score']}),d3.max(data,function (d) { return 1.02*d['Parent ACE Score']})])
 		.range([height,0]);
 
 
@@ -103,7 +103,7 @@ d3.csv('motionGraph_data_neg1.csv',function (data) {
 			.attr("dy", "-1.6em")
 			.attr("dx", -height/2.5)
 			.style('text-anchor','end')
-			.text('ParentACES');
+			.text('Parent ACE Score');
 
 	var circles = svg.selectAll('circle')
 		.data(data)
@@ -114,11 +114,12 @@ d3.csv('motionGraph_data_neg1.csv',function (data) {
 
 
 
-			.attr('cx',function (d) { return xScale(d['T1_Dyadic_Cib_Reciprocity'])})
-			.attr('cy',function (d) { return yScale(d['ParentACES']) })
+			.attr('cx',function (d) { return xScale(d['Parent Child Relationship Score'])})
+			.attr('cy',function (d) { return yScale(d['Parent ACE Score']) })
 			.attr("visibility", function(d,i){
-    			if(d['T1_Dyadic_Cib_Reciprocity'] == -1 ||  d['ParentACES'] == -1) return "hidden"; // hides the nulls
-    			if(d['ChildEthnicity'] == -1 ) return "hidden"; // hides the nulls
+    			if(d['Parent Child Relationship Score'] == -1 ||  d['Parent ACE Score'] == -1) return "hidden"; // hides the nulls
+    			if(d['Child ACE Score'] == -1 ) return "hidden"; // hides the nulls
+    			
 			})
 			// gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi gabi 
 	
@@ -128,11 +129,16 @@ d3.csv('motionGraph_data_neg1.csv',function (data) {
 			.duration(250)
 			.style("opacity", 1)
 			tooltip.html(
-	          "<p><strong>Parent ACES Scoce:  </strong>" + d['ParentACES'] + "/10" +
-	          "<p><strong>Child's ACE score:  </strong>" + (d['T1_ChildTotalACES']) + "/10" +
-	          "<p><strong>Parent-Child Releationship Score:  </strong>" + d['T1_Dyadic_Cib_Reciprocity'] + "/5 " +
+	          "<p><strong>Parent ACE Score:  </strong>" + d['Parent ACE Score'] + "/10" +
+	          "<p><strong>Child ACE Score:  </strong>" + (d['Child ACE Score']) + "/10" +
+	          "<p><strong>Parent-Child Releationship Score:  </strong>" + d['Parent Child Relationship Score'] + "/5 " +
 	          "<p><strong>Child Ethnicity:  </strong>" + d['ChildEthnicity'] + " " +
 	          "<p><strong>Child Age:  </strong>" + d['ChildAge'] + " months " +
+	          "<p><strong>Parent Age:  </strong>" + d['Parent Age'] + " years" +
+	          "<p><strong>Language Spoken at Home:  </strong>" + d['Language Spoken at Home'] +
+	          "<p><strong>Parent Education Level:  </strong>" + d['Parent Education Level'] +
+	          "<p><strong>Parent Employment Status:  </strong>" + d['Parent Employment Status'] +
+	           "<p><strong>Family Housing Status:  </strong>" + d['Family Housing Status'] +
 	          "<p><strong>Group:  </strong>" + d['Group'] + ""
 	          
 	    	// "<p><strong>Mother's Employment Status: </strong>" +d['Mothers_Employment_Status'] +

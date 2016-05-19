@@ -11,16 +11,15 @@
 body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
+ font-family: Montserrat;
+  font-size: 1.1em;
   color: #333;
   font-weight: 400;
 }
 
 #content {
-  margin: 5px;
+  margin: 0px;
   padding: 20px;
-  width: 50%;
   text-align: left;
  
 }
@@ -48,46 +47,51 @@ p {
 }
 
 #menu {
-  float: left;
+  float: right;
   margin: 15px 0px 0px 0px;
   padding: 0;
   display: block;
 }
 
 select {
-  width: 150px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 0.9em;
-  color: #333;
+  width: 450px;
+ 	font-family: Montserrat;
+  font-size: 1.2em;
+  color: #003399;
   font-weight: 400;
 }
 
 .axis path, .axis line {
   fill: none;
-  stroke: #ccc;
+  stroke: none;
   shape-rendering: crispEdges;
 }
 
 .axis line {
   stroke: #eee;
   stroke-width: 1;
+  opacity: 0.2;
   shape-rendering: crispEdges;
 }
 
 .tick text, #xAxisLabel, #yAxisLabel {
-  fill: #333;
-  font-size: 0.9em;
+  fill: #0033993;
+  font-size: 1em;
+  margin: 5, 0, 0, 0;
+  
 }
 
 .tooltip {
   position: absolute;
   padding: 7px;
-  width: 240px;
-  font-size: 0.9em;
+  width: 340px;
+  font-size: 1.1em;
   pointer-events: none;
+  opacity: 0.6;
   background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  
+  /*border: 1px solid #ccc;*/
+  /*border-radius: 4px;*/
 }
 
 .tooltip p {
@@ -119,7 +123,7 @@ circle:hover {
 	<!--<p>U.S. counties were sorted into 20 equally sized groups according to median household income. Poverty rates, infant mortality rates, and life expectancies were calculated for each of the 20 income groups. The data show that in 2007, low-income counties had significantly higher infant mortality rates and lower life expectancies than high-income counties.</p>-->
 	<div id="menu"></div>
 	<div id="chart"></div>
-	<p>Source: The New School for Social Reesearch, Center for Attachment.</p>
+	<!--<p>Source: The New School for Social Reesearch, Center for Attachment.</p>-->
 </div>
 
 <script type='text/javascript' src='chart.js'></script>
