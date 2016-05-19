@@ -773,8 +773,9 @@ a[data-lightbox]:hover img{
 
 #einstein {
 	
-	width: 150%;
-	height: 150%;
+	width: 1000px;
+	height: auto;
+
 
 }
 
