@@ -773,9 +773,9 @@ a[data-lightbox]:hover img{
 
 #einstein {
 	
-	width: 100%;
-	height: 100%;
-	position: float;
+	width: 150%;
+	height: 150%;
+
 }
 
 #iFrame-l{
@@ -786,7 +786,7 @@ a[data-lightbox]:hover img{
 }
 
 #iFrame-r{
-	position: float;
+
 	width: 50%;
 	height: 50%;
 	margin-left: 1000px;
